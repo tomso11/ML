@@ -1,6 +1,7 @@
+import inline as inline
+import matplotlib
 import pandas as pd
 import numpy as np
-import datetime as dt
 
 # import file
 df = pd.read_csv("../marambio_2007.dat",
@@ -16,3 +17,4 @@ for col in df:
 
 print(list(stats.columns))
 print(stats)
+
